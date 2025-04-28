@@ -14,6 +14,6 @@ To use the GitHub Actions in your own repository, follow these steps:
 # **My NeoVim Setup :)**
 
 ```
-Theme - NightOwl
+Theme - NightOwl.
 ```
 ![Nvim Image](nvim.png)
