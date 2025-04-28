@@ -1,1 +1,16 @@
-:cpu_quota: value
+name: Hello-World Workflow
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout code
+      - uses: actions/checkout@v4
+      
+      - name: Say Hello-World
+      - uses: echo "Hello, Github Actions"
